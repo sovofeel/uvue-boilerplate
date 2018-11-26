@@ -11,6 +11,7 @@
     "ssr:build": "vue-cli-service ssr:build --mode production",
     "ssr:start": "vue-cli-service ssr:start --mode production --port 3000",
     "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
     "generate": "vue-cli-service generate",
     "new": "hygen new"
   },
@@ -53,7 +54,7 @@
     "@vue/eslint-config-prettier": "^3.0.x",
     "@vueneue/vue-cli-plugin-ssr": "^0.3.22",
     "babel-jest": "23.6.x",
-    "lint-staged": "^8.0.0",
+    "lint-staged": "^8.0.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
